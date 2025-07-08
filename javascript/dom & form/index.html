@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="calculateAge(); return false">
+      <div>
+        <label for="age">Age*</label>
+        <input type="number" name="age" class="age" id="age" />
+      </div>
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <form onsubmit="signIn(); return false;">
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter yout email"
+      />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter yout password"
+      />
+      <button type="submit">Sign In</button>
+    </form>
+
+    <div id="message"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
