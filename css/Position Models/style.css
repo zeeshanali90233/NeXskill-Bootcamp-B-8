@@ -1,0 +1,51 @@
+.test {
+  background-color: red;
+  position: relative;
+  top: 100px;
+  z-index: 1000;
+}
+.test-1 {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  background-color: orange;
+  z-index: 1000;
+}
+.test-2 {
+  position: fixed;
+  bottom: 2px;
+  left: 10px;
+  background-color: green;
+}
+
+.nav {
+  position: sticky;
+  top: 1px;
+  background-color: chocolate;
+}
+
+.parent {
+  position: relative;
+  background-color: aqua;
+  width: 95vw;
+  height: 50px;
+}
+
+.child {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: blue;
+  width: 50px;
+  height: 20px;
+}
+
+
+.fa-comment{
+    color: green;
+}
+
+.fa-youtube{
+    color: #FF0000;
+    font-size: 20px;
+}
