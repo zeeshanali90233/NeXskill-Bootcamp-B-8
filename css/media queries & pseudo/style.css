@@ -1,0 +1,65 @@
+.btn {
+  background-color: aqua;
+}
+
+.btn:hover {
+  background-color: green;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.pseudo_link {
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+  color: red;
+}
+
+/* Psedo Elements */
+
+.heading::first-letter {
+  font-size: larger;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.heading::first-line {
+  color: brown;
+}
+
+.heading::before {
+  content: "Zeeshan";
+}
+.heading::after {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 10px;
+  background-color: blue;
+}
+
+
+.btn{
+    position: relative;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    /* opacity: 0; */
+    /* width: 100%; */
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: blueviolet;
+}
+
+.btn:hover::before{
+    width: 100%;
+}
+
+/* Media Queries */

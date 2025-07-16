@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    Media Queries and Pseudo classes & elements
+
+    <div>
+      <a
+        class="pseudo_link"
+        href="https://www.w3schools.com/css/css_pseudo_elements.asp"
+        >I'm Link</a
+      >
+    </div>
+    <div>
+      <button class="btn">Click Me</button>
+    </div>
+
+    <p class="heading">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora at
+      cumque laboriosam facilis voluptatem eos nihil magnam nam iste. Autem
+      eveniet quidem eum quisquam repudiandae consequatur fugiat molestias
+      suscipit delectus!
+    </p>
+
+    <!-- Chatbot -->
+    <form onsubmit="sendQuery(); return false;">
+      <div>
+        <input type="text" name="query" id="query" />
+      </div>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <div class="response"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
