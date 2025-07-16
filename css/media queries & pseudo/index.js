@@ -22,7 +22,7 @@ function sendQuery() {
       },
       {
         headers: {
-          "X-Goog-Api-Key": "AIzaSyBDJLD9rP4c3ij5QrZ0XEf1HnWkvcMNx8k",
+          "X-Goog-Api-Key": "GOOGLE_API_KEY",
           "Content-Type": "application/json",
         },
       }
